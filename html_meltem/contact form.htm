@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>
+
+ function myFunction() {
+$("#Message").html('Hi!' +$(#fname").val()+$(#lname").val +'Email'+$("email").val());
+}
+ </script>
+ </head>
+ <body>
+ <form action="action_page.htm">
+ <p>Forename</p>
+    <input type="text" id="fname"/>
+<p>Family-name</p>
+    
+    <input type="text" id="lname" />
+	<p>Email</p>
+
+    <input type="text" id="email"/>
+<p>Country</p>
+    
+    <input type="text" id="country"/>
+      
+
+  <p>Tell me something about yourself :)</p>
+    <textarea id="subject" ></textarea>
+<button onclick="myFunction()">Submit</button>
+</form>
+</body>
+</html>
